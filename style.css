@@ -1,0 +1,129 @@
+.nav-css{
+	border-radius:0px;
+	margin-bottom:0px !important;
+}
+.nav-css .navbar-brand{
+	color:#fff !important;
+}
+.Bg-img{
+	background-image: url("images/Bitmap.png");
+	min-height:48vh;
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+.no-Pad{
+	padding-left:0px !important;
+	padding-right:0px !important;
+}
+.sec-Bg{
+	background-color:#f4f3f3;
+}
+.box-css{
+	background-color:#ffffff;
+	padding: 15px;
+	
+}
+.col-Bg{
+	background-color:#ffffff;
+	padding: 20px;
+    height: -webkit-fill-available;
+}
+.no-Marg{
+	margin-left:0px !important;
+	margin-right:0px !important;
+}
+.borders tbody tr td{
+	border:none;
+}
+.links,.links:hover,.links:active,.links:focus{
+	color:#5babe2;
+}
+.nav-tabs>li>a{
+	color:#000;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	background-color: #8ac830;
+    color: #fff;
+    border: #8ac830;
+}
+.tab-content>.active{
+	text-align: center;
+	display:block;
+    line-height: 2.0;
+	margin-top: 5%;
+}
+.fa fa-picture-o,.fa-picture-o:before{
+	color: grey !important;
+    font-size: -webkit-xxx-large !important;
+}
+.applyBtn,.applyBtn:hover,.applyBtn:active,.applyBtn:visited,.applyBtn:focus{
+	background-color:#8ac830;
+	color:#fff;
+	border-color:#8ac830;
+	outline:none;
+}
+button.btn.btn-primary.btn-lg.applyBtn {
+	background-color:#8ac830;
+	color:#fff;
+	border-color:#8ac830;
+	outline:none;
+}
+.contBtn,.contBtn:hover,.contBtn:active,.contBtn:visited,.contBtn:focus{
+	background-color:transparent;
+	color:#000;
+	border-color:#000;
+	outline:none;
+}
+button.btn.btn-primary.btn-lg.contBtn{
+	background-color:transparent;
+	color:#000;
+	border-color:#000;
+	outline:none;
+}
+.fa-google-plus-square:before {
+    color:#f4501d;
+	font-size:22px;
+}
+.fa-facebook-square:before {
+    color:#3f51b5;
+	font-size:22px;
+}
+.fa-twitter-square:before {
+    color:#03a9f4;
+	font-size:22px;
+}
+/*Modal popup CSS*/
+.modal-content {
+	border-radius:0px !important;
+	line-height:1.8;
+}
+.modal-header{
+	background-color:#000;
+	color:#fff;
+}
+
+/**/
+@media (min-width:702px) and (max-width:1028px){
+	.Bg-img{
+	background-image: url("images/Bitmap.png");
+	min-height:35vh;
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+}
+@media (min-width:425px) and (max-width:768px){
+		.Bg-img{
+	background-image: url("images/Bitmap.png");
+	min-height:25vh;
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+}
+@media (min-width:320px) and (max-width:425px){
+		.Bg-img{
+	background-image: url("images/Bitmap.png");
+	min-height:15vh;
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+}
